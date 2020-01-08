@@ -1,0 +1,12 @@
+/* This part is read by every device/viewport */
+body{ font-size: 16px;}
+
+@media print {
+  /* print style sheets go here */
+  body{ font-size: 12px;}
+  
+.boxmodel {
+    padding: 200px;
+}
+}
+

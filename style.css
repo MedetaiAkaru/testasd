@@ -1,0 +1,78 @@
+
+p {
+    border: 1px solid orange;
+    padding: 5px;
+    background-color: cornflowerblue;
+    margin: 5px;
+}
+
+p {
+    color: black;
+    text-transform: capitalize;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 18px;
+    font-family: 'Kaushan Script', cursive;
+}
+
+body {
+    /* background-image: url("image/background.jpg"); */
+    background-size: cover;
+}
+
+#navbar > .navbar-item {
+    list-style: none;
+    display: inline-block;
+}
+
+.active {
+    color: red;
+}
+
+#pagetitle {
+    color: firebrick;
+    text-align: center;
+    border: 2px dashed purple;
+}
+ 
+p + p {
+    font-size: 200%;
+}
+
+h2 {
+    color: blue;
+    font-size: 2em;
+}
+
+.boxmodel {
+    border: 2px solid red;
+    display: inline-block;
+    padding: 20px;
+    margin: 20px;
+    background: purple;
+    background-image: radial-gradient(#5A77CF, #0E2D8B);
+}
+
+.boxmodel:hover {
+    background-image: radial-gradient(red,maroon);
+}
+
+a:visited {
+    color: green;
+}
+
+section.boxmodel:first-child {
+    font-size:300px;
+    color: green;
+}
+
+div {
+    background: orange !important;
+}
+
+
+@media (min-width: 500px) and (max-width: 600px) {
+    .boxmodel {
+      color: fuchsia;
+    }
+  }
